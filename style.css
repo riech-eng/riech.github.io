@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+    background-color:  #f0f0f0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: orange;
+  }
+  
+  .header-left {
+    float: left;
+    background-color: orange;
+    transition: all 0.5s;
+  }
+  
+  .header-left:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-left a {
+    line-height: 65px;
+    padding: 0 35px;
+    color: white;
+    display: inline-block;
+    justify-content: space-between;
+    border-right-width: thin;
+    border-right-style: solid;
+    border-right-color: white;
+  }
+
+  .omui{
+    border-left-width: thin;
+    border-left-style: solid;
+    border-left-color: white;
+  }
+
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(spice.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .signup {
+    background-color:orange;
+  }
+  
+  .btn {
+    padding: 20px 35px;
+    color: white;
+    opacity: 0.8;
+    display: inline-block;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  .wrapper {
+    width: 70%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+    background-color: #f0f0f0 ;
+    background-size: cover;
+
+}
+
+.main, .side {
+    padding: 0px;
+}
+
+.main {
+    background: #f0f0f0;
+    width: 60%;
+    margin-right: 20px;
+}
+
+.side {
+    background:  #f0f0f0;
+    width: 20%;
+}
+
+.side p, ul {
+    background-color: #f0f0f0;
+}
+
+/* 2カラムコンテンツにする */
+
+.archive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.archive div {
+    margin-bottom: 54px;
+    padding: 54px;
+    width: 35%;
+    background-color:white;
+}
+
+.archive img {
+    display: block;
+    margin-bottom: 32px;
+    width: 100%;
+    height: auto;
+}
+
+.form-text{
+  font-size: 16px;
+  padding: 10.130px;
+  width: 191px;
+}
+
+.main h1{
+  border-bottom:2px solid orange;
+  color:orange;
+}
+
+.side h2{
+  border-bottom:2px solid orange;
+  color:orange;
+}
+
+.side > ul > li{
+  list-style: none;
+  border-bottom: 1px white solid;
+}
+
+.side a{
+  color: black;
+  padding: 10px;
+  display: block;
+}
+
+/*フッター*/
+footer{
+  background-color: lightgray;
+  text-align: center;
+  padding: 26px 0;
+}
+
+footer p{
+  color: black;
+  font-size: 0.875rem;
+}
